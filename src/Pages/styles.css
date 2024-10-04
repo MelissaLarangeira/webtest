@@ -1,0 +1,86 @@
+/* Centralização e layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Cor de fundo neutra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1a73e8, #4285f4); /* Gradiente AEC */
+  }
+  
+  /* Estilo do container principal */
+  .container {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Títulos */
+  h1 {
+    color: #1a73e8;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Botões */
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #1a73e8; /* Cor típica da AEC */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0059c1;
+  }
+  
+  /* Inputs de formulário */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  a {
+    color: #1a73e8;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ajustes responsivos */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
